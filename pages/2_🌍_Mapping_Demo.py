@@ -5,13 +5,15 @@ from urllib.error import URLError
 
 st.set_page_config(page_title="Mapping Demo", page_icon="🌍")
 
-st.markdown("# Mapping Demo")
+st.markdown("# Mapping Demo v2")
 st.sidebar.header("Mapping Demo")
 st.write(
     """이 데모는 지리공간 데이터를 멋지게 시각화하는 방법을 보여줍니다! 🗺️
 [`st.pydeck_chart`](https://docs.streamlit.io/develop/api-reference/charts/st.pydeck_chart)를 
 사용해서 지도 위에 다양한 레이어를 올려보세요. 
-마치 샌프란시스코의 자전거 대여소와 지하철역이 살아 움직이는 것 같아요! ✨"""
+마치 샌프란시스코의 자전거 대여소와 지하철역이 살아 움직이는 것 같아요! ✨
+아래 사이드바에서 레이어를 선택해보세요.
+"""
 )
 
 
